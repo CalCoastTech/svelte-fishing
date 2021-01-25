@@ -1,8 +1,11 @@
 <script>
+  export let date;
   export let location = "";
+  export let latitude = 0;
+  export let longitude = 0;
 </script>
 
-<h1> { location } Weather</h1>
+<h1>Fish-Dash { location }</h1>
 
 <style>
   h1 {
